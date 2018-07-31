@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_question_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.decode.alzaid.QuestionDetailActivity">
+
+    <Spinner
+        android:id="@+id/sp_questions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/spinnerStyle">
+    </Spinner>
+
+
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:id="@+id/et_custom_case"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:mtf_image="@mipmap/question"
+        android:visibility="gone"
+        app:mtf_labelColor="#757575"
+        app:mtf_openKeyboardOnFocus="true">
+        <EditText
+            android:hint="Custom Question"
+            android:id="@+id/et_custom_question"
+            android:focusable="true"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="wrap_content" />
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:mtf_image="@mipmap/correct"
+        app:mtf_labelColor="#757575"
+        android:focusable="true"
+        app:mtf_openKeyboardOnFocus="true">
+        <EditText
+            android:hint="Answer"
+            android:id="@+id/et_answer"
+            android:focusable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:mtf_image="@mipmap/one"
+        app:mtf_labelColor="#757575"
+        android:focusable="true"
+        app:mtf_openKeyboardOnFocus="true">
+        <EditText
+            android:hint="Option 1"
+            android:id="@+id/et_option1"
+            android:focusable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:mtf_image="@mipmap/two"
+        app:mtf_labelColor="#757575"
+        android:focusable="true"
+        app:mtf_openKeyboardOnFocus="true">
+        <EditText
+            android:hint="Option 2"
+            android:id="@+id/et_option2"
+            android:focusable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:mtf_image="@mipmap/three"
+        app:mtf_labelColor="#757575"
+        android:focusable="true"
+        app:mtf_openKeyboardOnFocus="true">
+        <EditText
+            android:hint="Option 3"
+            android:id="@+id/et_option3"
+            android:focusable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+    <!--<Button-->
+        <!--android:text="ADD QUESTION"-->
+        <!--android:background="@color/colorPrimary"-->
+        <!--android:layout_gravity="bottom|right"-->
+        <!--android:id="@+id/btn_add_question"-->
+        <!--android:typeface="monospace"-->
+        <!--android:textAlignment="center"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:textColor="#FFFFFF"-->
+        <!--android:textStyle="bold"-->
+        <!--android:layout_height="wrap_content" />-->
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/btn_add_question"
+        android:text="ADD QUESTION"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        fbutton:buttonColor="#c62828"
+        fbutton:shadowColor="#b71c1c"
+        android:padding="10dp"
+        fbutton:shadowEnabled="true"
+        fbutton:shadowHeight="5dp"
+        fbutton:cornerRadius="5dp"
+        android:layout_margin="5dp"
+        android:layout_marginTop="5dp"
+        android:textSize="18dp"
+        android:textColor="#ffffff"/>
+</LinearLayout>

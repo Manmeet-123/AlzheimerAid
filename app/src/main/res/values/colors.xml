@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D32F2F</color>
+    <color name="colorPrimaryTrans">#CCD32F2F</color>
+    <color name="colorPrimaryDark">#C62828</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="button_unchecked">#DDDDDD</color>
+    <color name="button_checked">#0091EA</color>
+    <color name="darkRed">#D84315</color>
+    <color name="lightRed">#E64A19</color>
+    <color name="lighterRed">#F4511E</color>
+    <color name="Green">#4CAF50</color>
+</resources>
