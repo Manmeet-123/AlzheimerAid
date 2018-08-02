@@ -17,9 +17,7 @@ import android.widget.TextView;
 
 import java.util.List;
 
-/**
- * Created by Aditya on 2/11/2017.
- */
+
 
 public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.MyViewHolder> {
     private List<String> ItemList;

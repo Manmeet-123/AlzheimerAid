@@ -62,7 +62,7 @@ public class SettingsActivity extends AppCompatActivity {
                         new DialogInterface.OnClickListener() {
 
                             public void onClick(DialogInterface dialog, int which) {
-                                // TODO Auto-generated method stub
+                                
                                 return;
                             }
                         });
@@ -92,7 +92,7 @@ public class SettingsActivity extends AppCompatActivity {
                         new DialogInterface.OnClickListener() {
 
                             public void onClick(DialogInterface dialog, int which) {
-                                // TODO Auto-generated method stub
+                                
                                 return;
                             }
                         });

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "980643556779",
+    "firebase_url": "https://alzaid-2b407.firebaseio.com",
+    "project_id": "alzaid-2b407",
+    "storage_bucket": "alzaid-2b407.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980643556779:android:db6446be5a13d683",
+        "android_client_info": {
+          "package_name": "com.decode.alzaid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980643556779-msjn8tj98pl08v6qop09hhr6mj6o9e4m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeO_bSUCuGLxxtNCF9iqhfG_CPeTAiKQc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980643556779-msjn8tj98pl08v6qop09hhr6mj6o9e4m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
